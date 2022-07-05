@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="content">
@@ -55,32 +58,36 @@
                 </div>
             </div>
         </div>
-        <div class="right">
-            <div class="header">
-                <div class="top-header">
-                    <div class="top-right-header">
-                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z" clip-rule="evenodd"></path></svg>
-                        <input type="text">
-                    </div>
-                    <div class="top-left-header">
-                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M8 16a2 2 0 002-2H6a2 2 0 002 2z"></path><path fill-rule="evenodd" d="M8 1.918l-.797.161A4.002 4.002 0 004 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 00-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 111.99 0A5.002 5.002 0 0113 6c0 .88.32 4.2 1.22 6z" clip-rule="evenodd"></path></svg>
-                        <div class="user-pfp">User pic</div>
-                        <div class="user-name">Username</div>
-                    </div>
+        <div class="header">
+            <div class="top-header">
+                <div class="top-right-header">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z" clip-rule="evenodd"></path></svg>
+                    <input type="text">
                 </div>
-                <div class="bottom-header">
-                    <div class="bottom header-left">
-                        <div class="image"></div>
-                        <span>Hi there,</span>
-                        <div class="username">Username</div>
-                    </div>
-                    <div class="bottom header-right">
-                        <button class="new">New</button>
-                        <button class="upload">Upload</button>
-                        <button class="share">Share</button>
-                    </div>
+                <div class="top-left-header">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M8 16a2 2 0 002-2H6a2 2 0 002 2z"></path><path fill-rule="evenodd" d="M8 1.918l-.797.161A4.002 4.002 0 004 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 00-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 111.99 0A5.002 5.002 0 0113 6c0 .88.32 4.2 1.22 6z" clip-rule="evenodd"></path></svg>
+                    <div class="user-pfp">User pic</div>
+                    <div class="user-name">Username</div>
                 </div>
             </div>
+            <div class="bottom-header">
+                <div class="bottom header-left">
+                    <div class="image">
+                        <div class="user-pfp">PFP</div>
+                    </div>
+                    <div class="bottom-header-left-inside">
+                        <div class="text-header">Hi there,</div>
+                        <div class="username">Username</div>
+                    </div>
+                </div>
+                <div class="bottom header-right">
+                    <button class="new">New</button>
+                    <button class="upload">Upload</button>
+                    <button class="share">Share</button>
+                </div>
+            </div>
+        </div>
+        <div class="right">
             <div class="projects">
                 <h1>Your Projects</h1>
                 <div class="cards">
